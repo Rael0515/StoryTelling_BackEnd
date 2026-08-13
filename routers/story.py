@@ -3,6 +3,8 @@ from fastapi import APIRouter
 
 router = APIRouter()
 
+
+
 class StoryRequest(BaseModel):
     keywords: list[str]
 @router.post("/api/generate")
