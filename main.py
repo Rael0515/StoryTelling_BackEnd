@@ -5,6 +5,8 @@ from routers import story
 app = FastAPI()
 
 setup_cors(app)
+
+
 app.include_router(story.router)
 
 @app.get("/")
