@@ -8,4 +8,6 @@ def setup_cors(app):
         allow_headers=["*"],
     )
 
+
+
 ## 임시 파일
